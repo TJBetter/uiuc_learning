@@ -1,0 +1,5 @@
+if(EXISTS "/home/guagua/uiuc/restart_2025/lab_quacks/build/test-b12d07c_tests.cmake")
+  include("/home/guagua/uiuc/restart_2025/lab_quacks/build/test-b12d07c_tests.cmake")
+else()
+  add_test(test_NOT_BUILT-b12d07c test_NOT_BUILT-b12d07c)
+endif()

@@ -1,0 +1,11 @@
+/home/guagua/uiuc/restart_2025/lab_quacks/build/CMakeFiles/test.dir
+/home/guagua/uiuc/restart_2025/lab_quacks/build/CMakeFiles/main.dir
+/home/guagua/uiuc/restart_2025/lab_quacks/build/CMakeFiles/edit_cache.dir
+/home/guagua/uiuc/restart_2025/lab_quacks/build/CMakeFiles/rebuild_cache.dir
+/home/guagua/uiuc/restart_2025/lab_quacks/build/lib/CMakeFiles/lodepng.dir
+/home/guagua/uiuc/restart_2025/lab_quacks/build/lib/CMakeFiles/cs225.dir
+/home/guagua/uiuc/restart_2025/lab_quacks/build/lib/CMakeFiles/edit_cache.dir
+/home/guagua/uiuc/restart_2025/lab_quacks/build/lib/CMakeFiles/rebuild_cache.dir
+/home/guagua/uiuc/restart_2025/lab_quacks/build/src/CMakeFiles/src.dir
+/home/guagua/uiuc/restart_2025/lab_quacks/build/src/CMakeFiles/edit_cache.dir
+/home/guagua/uiuc/restart_2025/lab_quacks/build/src/CMakeFiles/rebuild_cache.dir
