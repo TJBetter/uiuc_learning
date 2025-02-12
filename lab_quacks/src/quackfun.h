@@ -7,7 +7,7 @@
 
 #include <stack>
 #include <queue>
-
+#include <unordered_map>
 /**
  * Namespace to contain the stack and queue functions for this lab.
  */

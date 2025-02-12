@@ -26,14 +26,28 @@ namespace QuackFun {
  * @return  The sum of all the elements in the stack, leaving the original
  *          stack in the same state (unchanged).
  */
+
+// void printStack(const stack<T>& s) {
+//     stack<T> s_copy = s;
+//     std::cout << "stack is: ";
+//     while(!s_copy.empty()) {
+//         std::cout << s_copy.top() << ", " << std::endl;
+//         s_copy.pop();
+//     }
+//     std::cout << std::endl;
+// }
+
 template <typename T>
 T sum(stack<T>& s)
 {
-
-    // Your code here
-    return T(); // stub return value (0 for primitive types). Change this!
-                // Note: T() is the default value for objects, and 0 for
-                // primitive types
+    if (s.size() == 1) {
+        return s.top();
+    }
+    T element = s.top();
+    s.pop();
+    T result = element + sum(s);
+    s.push(element);
+    return result;
 }
 
 /**
@@ -53,11 +67,29 @@ T sum(stack<T>& s)
  * @param input The queue representation of a string to check for balanced brackets in
  * @return      Whether the input string had balanced brackets
  */
+std::unordered_map<char, char> charMap = {
+    {']', '['},
+    {')', '('},
+    {'}', '{'}
+};
 bool isBalanced(queue<char> input)
 {
-
-    // @TODO: Make less optimistic
-    return true;
+    stack<char> collection;
+    while (!input.empty()) {
+        char top_element_input = input.front();
+        if (!collection.empty()) {
+            char top_element_collection = collection.top();
+            if (charMap.find(top_element_input) != charMap.end() && charMap[top_element_input] == top_element_collection) {
+                collection.pop();
+            } else {
+                collection.push(top_element_input);
+            }
+        } else {
+            collection.push(top_element_input);
+        }
+        input.pop();
+    }
+    return collection.empty();
 }
 
 /**

@@ -272,10 +272,49 @@ CMakeFiles/test.dir/tests/basic.cpp.o: ../tests/basic.cpp \
   /usr/include/c++/11/bits/sstream.tcc \
   ../src/exercises.h \
   ../src/quackfun.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/debug/unordered_map \
+  /usr/include/c++/11/debug/safe_unordered_container.h \
+  /usr/include/c++/11/debug/safe_unordered_base.h \
+  /usr/include/c++/11/debug/safe_unordered_container.tcc \
+  /usr/include/c++/11/debug/safe_local_iterator.h \
+  /usr/include/c++/11/debug/safe_local_iterator.tcc \
   ../src/quackfun.hpp
 
 
 ../src/quackfun.hpp:
+
+/usr/include/c++/11/debug/safe_local_iterator.tcc:
+
+/usr/include/c++/11/debug/safe_local_iterator.h:
+
+/usr/include/c++/11/debug/safe_unordered_container.tcc:
+
+/usr/include/c++/11/debug/safe_unordered_container.h:
+
+/usr/include/c++/11/debug/unordered_map:
+
+/usr/include/c++/11/bits/unordered_map.h:
+
+/usr/include/c++/11/bits/invoke.h:
+
+/usr/include/c++/11/array:
+
+/usr/include/c++/11/tuple:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/include/c++/11/unordered_map:
 
 ../src/quackfun.h:
 
@@ -284,6 +323,8 @@ CMakeFiles/test.dir/tests/basic.cpp.o: ../tests/basic.cpp \
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/include/c++/11/istream:
+
+/usr/include/c++/11/bits/node_handle.h:
 
 /usr/include/c++/11/iostream:
 
@@ -370,6 +411,8 @@ CMakeFiles/test.dir/tests/basic.cpp.o: ../tests/basic.cpp \
 /usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/c++/11/debug/functions.h:
+
+/usr/include/c++/11/bits/enable_special_members.h:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
@@ -601,6 +644,8 @@ CMakeFiles/test.dir/tests/basic.cpp.o: ../tests/basic.cpp \
 
 /usr/include/c++/11/bits/functional_hash.h:
 
+/usr/include/c++/11/bits/hashtable.h:
+
 /usr/local/include/catch2/internal/catch_logical_traits.hpp:
 
 /usr/local/include/catch2/internal/catch_preprocessor_internal_stringify.hpp:
@@ -611,7 +656,11 @@ CMakeFiles/test.dir/tests/basic.cpp.o: ../tests/basic.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
+/usr/include/c++/11/ext/aligned_buffer.h:
+
 /usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/c++/11/bits/erase_if.h:
 
 /usr/include/stdint.h:
 
@@ -776,6 +825,8 @@ CMakeFiles/test.dir/tests/basic.cpp.o: ../tests/basic.cpp \
 /usr/include/c++/11/limits:
 
 /usr/include/c++/11/bits/parse_numbers.h:
+
+/usr/include/c++/11/debug/safe_unordered_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
