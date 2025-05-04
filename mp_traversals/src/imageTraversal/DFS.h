@@ -33,6 +33,9 @@ public:
   bool empty() const;
 
 private:
-	/** @todo [Part 1] */
-	/** add private members here*/
+  std::stack<Point>  stack_;
+  const PNG& png_;
+  Point start_;
+  double tolerance_;
+  std::vector<std::vector<bool>> visited_;
 };

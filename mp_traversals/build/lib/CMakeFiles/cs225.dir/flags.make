@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/guagua/uiuc/restart_2025/mp_traversals/lib
 
-CXX_FLAGS =  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17
+CXX_FLAGS =  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++14
 

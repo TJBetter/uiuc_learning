@@ -22,8 +22,13 @@ using namespace cs225;
  * @param tolerance If the current point is too different (difference larger than tolerance) with the start point,
  * it will not be included in this BFS
  */
-BFS::BFS(const PNG & png, const Point & start, double tolerance) {  
+BFS::BFS(const PNG &png, const Point &start, double tolerance)
+    : png_(png), start_(start), tolerance_(tolerance) {
   /** @todo [Part 1] */
+  queue_.push(start);
+  visited_ = std::vector<std::vector<bool>>(
+      png.width(),
+      std::vector<bool>(png.height(), false));
 }
 
 /**
@@ -31,7 +36,7 @@ BFS::BFS(const PNG & png, const Point & start, double tolerance) {
  */
 ImageTraversal::Iterator BFS::begin() {
   /** @todo [Part 1] */
-  return ImageTraversal::Iterator();
+  return ImageTraversal::Iterator(this);
 }
 
 /**
@@ -46,7 +51,15 @@ ImageTraversal::Iterator BFS::end() {
  * Adds a Point for the traversal to visit at some point in the future.
  */
 void BFS::add(const Point & point) {
-  /** @todo [Part 1] */
+  if (point.x < png_.width() && point.y < png_.height() && !visited_[point.x][point.y]
+    && point.x >= 0 && point.y >= 0) {
+    const HSLAPixel current_pixel = png_.getPixel(point.x, point.y);
+    const HSLAPixel start_pixel = png_.getPixel(start_.x, start_.y);
+    if (ImageTraversal::calculateDelta(start_pixel, current_pixel) <= tolerance_) {
+      queue_.push(point);
+      std::cout << "point added and its: " << point << std::endl;
+    }
+  }
 }
 
 /**
@@ -54,15 +67,23 @@ void BFS::add(const Point & point) {
  */
 Point BFS::pop() {
   /** @todo [Part 1] */
-  return Point(0, 0);
+  if (queue_.empty()) {
+    return Point(0.0, 0.0);
+  }
+  Point point = queue_.front();
+  visited_[point.x][point.y] = true;
+  queue_.pop();
+  return point;
 }
 
 /**
  * Returns the current Point in the traversal.
  */
 Point BFS::peek() const {
-  /** @todo [Part 1] */
-  return Point(0, 0);
+  if (queue_.empty()) {
+    return Point(0.0, 0.0);
+  }
+  return queue_.front();
 }
 
 /**
@@ -70,5 +91,7 @@ Point BFS::peek() const {
  */
 bool BFS::empty() const {
   /** @todo [Part 1] */
-  return true;
+  return queue_.empty();
 }
+
+

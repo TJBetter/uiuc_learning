@@ -14,66 +14,66 @@ lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/vector \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_algobase.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/pstl_config.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/functexcept.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/exception_defines.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/cpp_type_traits.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/type_traits.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/numeric_traits.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_pair.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/move.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/type_traits \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/concept_check.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/assertions.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_iterator.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ptr_traits.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/stl_iterator.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/helper_functions.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/debug.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/macros.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/functions.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_function.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward/binders.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/formatter.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/typeinfo \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/exception.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/hash_bytes.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/predefined_ops.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/allocator.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/new_allocator.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/new \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/memoryfwd.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_construct.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_uninitialized.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/alloc_traits.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/alloc_traits.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_vector.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/initializer_list \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_bvector.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/functional_hash.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/range_access.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/vector.tcc \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/vector \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/utility \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_relops.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/safe_sequence.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/safe_base.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/concurrence.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/exception \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/exception_ptr.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/vector \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_algobase.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12/bits/c++config.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/functexcept.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/exception_defines.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/cpp_type_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/ext/type_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/ext/numeric_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_pair.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/type_traits \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/move.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/utility.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_iterator_base_types.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_iterator_base_funcs.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/concept_check.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/assertions.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_iterator.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/ptr_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/stl_iterator.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/helper_functions.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/debug.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/macros.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/functions.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_function.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward/binders.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/formatter.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/typeinfo \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/exception.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/hash_bytes.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/predefined_ops.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/allocator.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/new_allocator.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/new \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/memoryfwd.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_construct.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_uninitialized.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/ext/alloc_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/alloc_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_vector.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/initializer_list \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stl_bvector.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/functional_hash.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/refwrap.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/invoke.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/range_access.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/vector.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/vector \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/safe_sequence.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/safe_base.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/ext/concurrence.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/exception \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/exception_ptr.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/cxxabi_init_exception.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/__stddef_max_align_t.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/nested_exception.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/nested_exception.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12/bits/gthr.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12/bits/gthr-default.h \
   /usr/include/pthread.h /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
@@ -103,15 +103,15 @@ lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/safe_sequence.tcc \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/safe_container.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/safe_iterator.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/debug/safe_iterator.tcc \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/string \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stringfwd.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/char_traits.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/postypes.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cwchar \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/safe_sequence.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/safe_container.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/safe_iterator.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/debug/safe_iterator.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/string \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/stringfwd.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/char_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/postypes.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/cwchar \
   /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdarg.h \
@@ -121,27 +121,22 @@ lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdint \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/cstdint \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h \
   /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/localefwd.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/clocale \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/localefwd.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/clocale \
   /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iosfwd \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cctype \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/iosfwd \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/cctype \
   /usr/include/ctype.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ostream_insert.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/cxxabi_forced.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/atomicity.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/string_view \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/string_view.tcc \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/string_conversions.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/ostream_insert.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/cxxabi_forced.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/basic_string.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/ext/string_conversions.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/cstdlib \
   /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
@@ -152,21 +147,21 @@ lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_abs.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdio \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/std_abs.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/cstdio \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cerrno \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/cerrno \
   /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/charconv.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/charconv.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/bits/basic_string.tcc \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/limits.h \
   /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -174,4 +169,4 @@ lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdlib.h
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/stdlib.h

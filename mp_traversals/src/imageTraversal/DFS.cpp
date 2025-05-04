@@ -21,16 +21,18 @@
  * @param tolerance If the current point is too different (difference larger than tolerance) with the start point,
  * it will not be included in this DFS
  */
-DFS::DFS(const PNG & png, const Point & start, double tolerance) {  
-  /** @todo [Part 1] */
-}
+DFS::DFS(const PNG & png, const Point & start, double tolerance) : png_(png), start_(start), tolerance_(tolerance){
+  stack_.push(start);
+  visited_ = std::vector<std::vector<bool>>(png.width(), std::vector<bool>(png.height(), false));
+  // Do not mark start as visited here
+ }
 
 /**
  * Returns an iterator for the traversal starting at the first point.
  */
 ImageTraversal::Iterator DFS::begin() {
   /** @todo [Part 1] */
-  return ImageTraversal::Iterator();
+  return ImageTraversal::Iterator(this);
 }
 
 /**
@@ -45,15 +47,28 @@ ImageTraversal::Iterator DFS::end() {
  * Adds a Point for the traversal to visit at some point in the future.
  */
 void DFS::add(const Point & point) {
-  /** @todo [Part 1] */
+  if (point.x < png_.width() && point.y < png_.height() && !visited_[point.x][point.y]
+      && point.x >= 0 && point.y >= 0) {
+    HSLAPixel start_pixel = png_.getPixel(start_.x, start_.y);
+    HSLAPixel curr_pixel = png_.getPixel(point.x, point.y);
+    if (ImageTraversal::calculateDelta(start_pixel, curr_pixel) <= tolerance_) {
+      stack_.push(point);
+      // Do not mark as visited here
+    }
+  }
 }
 
 /**
  * Removes and returns the current Point in the traversal.
  */
 Point DFS::pop() {
-  /** @todo [Part 1] */
-  return Point(0, 0);
+  if (stack_.empty()) {
+    return Point(0.0, 0.0);
+  }
+  Point point = stack_.top();
+  stack_.pop();
+  visited_[point.x][point.y] = true;  // Mark as visited when popping
+  return point;
 }
 
 /**
@@ -61,7 +76,10 @@ Point DFS::pop() {
  */
 Point DFS::peek() const {
   /** @todo [Part 1] */
-  return Point(0, 0);
+  if (stack_.empty()) {
+    return Point(0.0, 0.0);
+  }
+  return stack_.top();
 }
 
 /**
@@ -69,5 +87,5 @@ Point DFS::peek() const {
  */
 bool DFS::empty() const {
   /** @todo [Part 1] */
-  return true;
+  return stack_.empty();
 }
